@@ -1,0 +1,23 @@
+{
+  "presets": [
+    [
+      "@babel/preset-env",
+      {
+        // "useBuiltIns": "usage",
+        "targets": {
+          "esmodules": true
+        },
+        "forceAllTransforms": true
+      }
+    ]
+  ],
+  "plugins": [
+    ["@babel/plugin-proposal-class-properties"]
+    // [
+    //   "@babel/plugin-transform-runtime",
+    //   {
+    //     "corejs": false
+    //   }
+    // ]
+  ]
+}
